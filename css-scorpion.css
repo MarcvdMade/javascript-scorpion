@@ -1,0 +1,179 @@
+/*Prototype css*/
+#proto-title {
+    position: absolute;
+    left: 80%;
+    transform: translate(-50%);
+    top: 10%;   
+}
+
+.proto-button {
+    background-color: #7174C5;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    font-size: 1vw;
+    cursor: pointer; 
+}
+
+#proto-button-talk {
+    position: absolute;
+    transform: translate(-50%);
+    top: 20%; 
+    left: 75%;
+      
+}
+
+#proto-button-hit {
+    position: absolute;
+    transform: translate(-50%);
+    top: 20%; 
+    left: 85%;  
+}
+
+#proto-button-rave {
+    position: absolute;
+    transform: translate(-50%);
+    top: 30%; 
+    left: 85%;
+}
+
+#proto-button1 {
+    position: absolute;
+    transform: translate(-50%);
+    top: 30%; 
+    left: 75%; 
+}
+
+#proto-button2 {
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%; 
+    left: 75%;  
+}
+
+#proto-button3 {
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%; 
+    left: 85%;  
+}
+
+.rave-background {
+    -webkit-animation: bgcolor 1s infinite;
+    animation: bgcolor 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -moz-animation:  bgcolor 1s infinite;
+    -moz-animation-direction:  alternate;
+    -o-animation:  bgcolor 1s infinite;
+    -o-animation-direction: alternate;
+}
+
+.rave-arm-rotate {
+    -webkit-animation: arm-rotate 1s infinite;
+    animation: arm-rotate 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -moz-animation:  arm-rotate 1s infinite;
+    -moz-animation-direction:  alternate;
+    -o-animation:  arm-rotate 1s infinite;
+    -o-animation-direction: alternate;
+}
+
+#warning {
+    font-size: 0.7vw;
+    position: absolute;
+    top: 50vh;
+    left: 71vw;
+}
+
+#proto-img-body {
+    position: relative;
+    right: 50vw;
+    width: 18%;
+    height: auto;
+    top: 29vh;
+    float: right;
+
+}
+
+#proto-img-hurt {
+    position: absolute;
+    right: 50vw;
+    width: 18%;
+    height: auto;
+    top: 29vh;
+    float: right;
+    display: none;
+}
+
+#proto-img-arm-left {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 30vh;
+    left: 23vw;
+    float: left;
+}
+
+#proto-img-arm-right {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 30vh;
+    left: 28vw;
+    float: left;
+}
+
+#proto-img-staart {
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 5vh;
+    right: 30vw;
+    float: right;
+}
+
+#proto-text {
+    position: absolute;
+    top: 20vh;
+    right: 65vw;
+    float: right;
+    font-size: 2vw;
+    display: none;
+}
+
+
+
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+@keyframes arm-rotate {
+    from {
+            transform: rotate(0deg);
+    }
+
+    to {
+            transform: rotate(360deg);
+    }
+}
